@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="menu-test">
     <el-menu>
       <div class="menu-test-single-file">
         <el-link @click="ctrlFileList">文件夹名称</el-link>
@@ -42,13 +42,13 @@ export default {
 }
 </script>
 <style>
-.menu-test-single-file {
+.menu-test .menu-test-single-file {
   width: 100px;
   display: flex;
   justify-content: space-between;
   align-content: center;
 }
-.menu-test-first-class-title {
+.menu-test .menu-test-first-class-title {
   width: 30px;
   height: 30px;
 }
