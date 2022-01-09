@@ -52,7 +52,7 @@ export default {
   width: 30px;
   height: 30px;
 }
-.el-icon-arrow-down:before {
+.menu-test-single-file .el-icon-arrow-down:before {
   content: ''!important;
 }
 .menu-test-single-file .el-submenu__title {
@@ -60,7 +60,7 @@ export default {
   line-height: 0px;
   height: 27px;
 }
-.el-menu-item {
+.menu-test-single-file .el-menu-item {
   padding-left: 0px!important;
   min-width:138px !important;
 }
