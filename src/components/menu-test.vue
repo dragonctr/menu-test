@@ -2,7 +2,7 @@
   <section class="menu-test">
     <el-menu>
       <div class="menu-test-single-file">
-        <el-link @click="ctrlFileList">文件夹名称</el-link>
+        <el-link @click="ctrlFileList">文件夹名称1</el-link>
         <el-submenu class="menu-test-first-class-title" index="1">
           <template slot="title">
             <el-icon class="el-icon-plus"></el-icon>
